@@ -11,18 +11,18 @@ If you want to set the mongodb and import the products to start with the challen
 $ make database-up
 ```
 
-If you want to run the mongodb image, use this one:
+If you only want to run the mongodb image, use this one:
 ```sh
 $ make database-docker-up
 ```
 
-If you want to import the products in the running mongodb image, use this:
+If you only want to import the products in the running mongodb image, use this:
 ```sh
 $ make database-provision
 ```
-### Something went wront?
+### Something went wrong?
 
-If something went wront, you can stop and remove the container with this:
+If something went wrong, you can stop and remove the container with this:
 ```sh
 $ make database-down
 ```
