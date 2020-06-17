@@ -32,4 +32,4 @@ If you want to reset the container:
 $ make database-reset
 ```
 
-If something else, you are always welcome to have a look at the Makefile ;)
+Anything else?, you are always welcome to have a look at the Makefile ;)
